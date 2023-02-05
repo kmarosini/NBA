@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421363667429",
+    "project_id": "nbaapp-d86bd",
+    "storage_bucket": "nbaapp-d86bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421363667429:android:eba9d758d50a5b7e9d5f0c",
+        "android_client_info": {
+          "package_name": "hr.algebra.nba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421363667429-pu72u9gjf51de2f4gk3bp9joam7egf99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAdPYOqYnyf7J5jL-h_EgeUBWyb-eEd88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421363667429-pu72u9gjf51de2f4gk3bp9joam7egf99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

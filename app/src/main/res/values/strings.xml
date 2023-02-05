@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NBA</string>
+    <string name="no_internet">No internet</string>
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="application_made_by_karlo_marosini">Application made by Karlo Marosini</string>
+    <string name="exit">Exit</string>
+    <string name="really">Really exit app?</string>
+    <string name="cancle">Cancel</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="maps">Maps</string>
+</resources>
