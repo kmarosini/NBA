@@ -18,13 +18,13 @@
         android:theme="@style/Theme.NBA"
         tools:targetApi="31">
         <activity
-            android:name=".Map"
+            android:name=".MapsFragment"
             android:exported="false" />
         <activity
             android:name=".EditActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HostActivity"
             android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -39,17 +39,13 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyCC7njU_qkdNONAnPKR9WXJB54W4-dtaxs" />
 
-        <activity
-            android:name=".MapActivity"
-            android:exported="false" />
+
         <activity
             android:name=".SignInActivity"
             android:exported="false" />
-        <activity
-            android:name=".BaseActivity"
-            android:exported="false" />
+
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
@@ -74,9 +70,7 @@
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <activity
-            android:name=".HostActivity"
-            android:exported="false" />
+
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true"

@@ -13,4 +13,8 @@
     <item
         android:title="Map"
         android:id="@+id/menuMaps"/>
+
+    <item
+        android:title="Add"
+        android:id="@+id/menuAdd"/>
 </menu>

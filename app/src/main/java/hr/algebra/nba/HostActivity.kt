@@ -24,15 +24,15 @@ class HostActivity : AppCompatActivity() {
         binding = ActivityHostBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var fbEdit : FloatingActionButton = findViewById(R.id.fbEdit)
+        //var fbEdit : FloatingActionButton = findViewById(R.id.fbEdit)
 
         initHamburgerMenu()
         initNavigation()
 
 
-        fbEdit.setOnClickListener {
+        /*fbEdit.setOnClickListener {
             startActivity<EditActivity>()
-        }
+        }*/
     }
 
     private fun initHamburgerMenu() {
@@ -60,7 +60,7 @@ class HostActivity : AppCompatActivity() {
                 exitApp()
                 return true
             }
-        }
+            }
         return super.onOptionsItemSelected(item)
     }
 

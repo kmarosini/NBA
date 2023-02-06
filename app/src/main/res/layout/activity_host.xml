@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
     tools:context=".HostActivity"
+    tools:openDrawer="left"
     android:background="@drawable/ic_bg">
 
     <fragment
@@ -25,22 +26,7 @@
         android:layout_width="@dimen/navViewWidth"
         android:layout_height="@dimen/navViewHeight"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:gravity="bottom|end">
 
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/fbEdit"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            app:srcCompat = "@android:drawable/ic_input_add"
-            />
-
-    </LinearLayout>
 
 
 

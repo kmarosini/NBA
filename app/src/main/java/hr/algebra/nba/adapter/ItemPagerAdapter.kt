@@ -77,9 +77,9 @@ class ItemPagerAdapter(private val context: Context, private val items: MutableL
                 ContentValues().apply {
                     put(Player::firstName.name, item.firstName)
                     put(Player::lastName.name, item.lastName)
-                    put(Player::weightPounds.name, item.weightPounds)
                     put(Player::heightFeet.name, item.heightFeet)
                     put(Player::heightInches.name, item.heightInches)
+                    put(Player::weightPounds.name, item.weightPounds)
                 },
                 null, null
             )

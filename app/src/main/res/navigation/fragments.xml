@@ -26,4 +26,11 @@
         tools:layout="@layout/fragment_maps"
         />
 
+    <fragment
+        android:id="@+id/menuAdd"
+        android:name="hr.algebra.nba.AddFragment"
+        android:label="@string/add"
+        tools:layout="@layout/fragment_add"
+        />
+
 </navigation>
