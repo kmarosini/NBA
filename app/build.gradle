@@ -57,6 +57,8 @@ dependencies {
     // google lib
     implementation 'com.google.android.material:material:1.8.0'
 
+    implementation 'com.airbnb.android:lottie:4.1.0'
+
     implementation 'com.vmadalin:easypermissions-ktx:1.0.0'
 
     // firebase

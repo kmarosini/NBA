@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.animation.AnimationUtils
+import com.airbnb.lottie.LottieDrawable
 import hr.algebra.nba.databinding.ActivitySplashScreenBinding
 import hr.algebra.nba.framework.*
 
@@ -30,6 +31,9 @@ class SplashScreenActivity : AppCompatActivity() {
     private fun startAnimations() {
         binding.ivSplash.applyAnimation(R.anim.rotate)
         binding.tvSplash.applyAnimation(R.anim.blink)
+        binding.animationView.setAnimation(R.raw.loading)
+        binding.animationView.repeatCount = LottieDrawable.INFINITE
+        binding.animationView.playAnimation()
     }
 
     private fun redirect() {
