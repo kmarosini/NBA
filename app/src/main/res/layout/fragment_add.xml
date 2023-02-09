@@ -12,11 +12,11 @@
         android:layout_marginTop="40dp"
         android:orientation="vertical">
 
-        <ImageView
-            tools:src="@drawable/add_image"
-            android:id="@+id/ivAddItem"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/ivPagerHeight"
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@+id/animation_view"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
             />
 
 

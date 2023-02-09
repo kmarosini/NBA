@@ -17,4 +17,11 @@
     <dimen name="radius">9dp</dimen>
     <dimen name="ivPagerHeight">200dp</dimen>
     <dimen name="marginTop">20dp</dimen>
+    <dimen name="lottieStartWidth">300dp</dimen>
+    <dimen name="lottieStartHeight">250dp</dimen>
+    <dimen name="lottieStartMarginBottom">30dp</dimen>
+    <dimen name="editMarginTop">40dp</dimen>
+    <dimen name="tilMarginStart">16dp</dimen>
+    <dimen name="tilMarginEnd">16dp</dimen>
+    <dimen name="tilMarginBottom">7dp</dimen>
 </resources>

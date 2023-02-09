@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import com.airbnb.lottie.LottieDrawable
 import hr.algebra.nba.databinding.FragmentAddBinding
 import hr.algebra.nba.databinding.FragmentItemsBinding
 import hr.algebra.nba.model.Player
@@ -23,6 +24,10 @@ class AddFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentAddBinding.inflate(inflater, container, false)
+
+        binding.animationView.setAnimation(R.raw.add)
+        binding.animationView.repeatCount = LottieDrawable.INFINITE
+        binding.animationView.playAnimation()
         return binding.root
     }
 
