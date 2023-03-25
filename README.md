@@ -9,4 +9,4 @@ The NBA App is a mobile application developed using Kotlin programming language 
 
 - CRUD Operations: The app allows users to create, read, update, and delete.
 
--Google Maps Integration: The app utilizes Google Maps to display the current user location
+- Google Maps Integration: The app utilizes Google Maps to display the current user location
